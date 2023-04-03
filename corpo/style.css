@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-color: aliceblue;
+    height: 200vh;
+}
+main{
+    width: 400px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(167, 22, 167);
+}
+main h1{
+    text-align: center;
+    background-color: #808080;
+    padding: 20px 0;
+    border-radius: 5px;
+    border: 1px solid #191919;
+    min-height: 50px;
+    max-height: 50px;
+    color: aliceblue;
+}
+label{
+    font-size: 17px;
+    padding: 5px;
+}
+main #weight, #height, #name{
+    top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(167, 22, 167);
+    outline: none;
+    padding: 10px 0;
+    text-align: center;
+}
+main #name{
+    position: relative;
+    margin-top: 30px;
+}
+.height{
+    position: relative;
+    top: 80px;
+}
+.weight{
+    position: relative;
+    top: 50px;
+}
+button{
+    position: relative;
+    top: 120px;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #dad4da;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+button:hover{
+    border: 1px solid rgb(33, 209, 33);
+    color: rgb(33, 209, 33);
+}
+#img{
+    width: 50px;
+    position: absolute;
+    right: 625px;
+    bottom: 20px;
+    cursor: pointer;
+}
+#imgTable{
+    position: absolute;
+    top: 100vh;
+    left: 50%;
+    transform: translate(-50%);
+}
+footer{
+    position: relative;
+    top: 96vh;
+    text-align: center;
+}

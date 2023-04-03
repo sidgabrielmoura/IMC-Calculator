@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC calculadora</title>
+</head>
+<body>
+    <main>
+        <h1 class="restView"></h1>
+        <div class="weight">
+            <label>informe seu peso:</label>
+            <input type="number" name="" id="weight" placeholder="Ex: 72">
+        </div>
+        <div class="height">
+            <label>informe sua altura em metros:</label>
+            <input type="number" name="" id="height" placeholder="Ex: 1,80">
+        </div>
+        <button id="submit" onclick="calcular()">Calcular</button>
+    </main>
+    <img src="img/arrow-down-sign-to-navigate.png" alt="" id="img">
+    <img src="./img/tabela imc.png" alt="" id="imgTable">
+
+    <footer>
+        <p>Sid Gabriel &copy; 2023</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!--peso / (altura ao quadrado)-->
